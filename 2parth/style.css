@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Noto+Serif:wght@300&family=Raleway:wght@700&family=Roboto+Slab:wght@200;300&family=Roboto:wght@100&family=Rubik+Mono+One&family=Russo+One&display=swap");
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 6vw;
+  padding-right: 6vw;
+  padding-top: 3vh;
+}
+
+.btn-round {
+  border-radius: 25px;
+  background-color: #5222d0;
+  color: white;
+}
+
+.main-parth {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5vh;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 25vw;
+  padding-bottom: 1vh;
+}
+.title-text {
+  font-family: "Rubik Mono One", monospace, sans-serif;
+  font-size: 3rem;
+  padding-top: 6vh;
+}
+
+.text-bar {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: large;
+  padding: 2vh;
+  padding-left: 0vw;
+}
+
+.btn-puy {
+  display: flex;
+  align-items: baseline;
+  padding: 1vh 1vw;
+  font-family: "Rubik Mono One", monospace, sans-serif;
+  border-radius: 25px;
+  font-size: 2em;
+  height: 8vh;
+  width: 15vw;
+  background-color: #5222d0;
+  color: white;
+}
+
+.back-guy {
+  background-image: url(./image/guy.png);
+  background-repeat: no-repeat;
+  padding-right: 7vw;
+}
+
+.links-menu {
+  text-decoration: none;
+  font-family: "Roboto Slab", sans-serif;
+  color: #5222d0;
+  padding: 2vw;
+}
+.title-posibilites {
+  font-family: "Rubik Mono One", monospace, sans-serif;
+  font-size: 3em;
+  padding-top: 5vh;
+  padding-left: 8vw;
+}
+.card__conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 7vw;
+  padding-right: 7vw;
+  padding-top: 2vh;
+  padding-bottom: 3vh;
+}
+
+.card {
+  display: flex;
+  width: 20vw;
+}
+.card__title {
+  font-family: "Rubik Mono One", monospace, sans-serif;
+  font-size: 1.2em;
+}
+
+.card__text {
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.mail-window {
+  background-color: #ec615b;
+  color: white;
+}
+
+.mail-text {
+  font-family: "Rubik Mono One", monospace, sans-serif;
+  padding-left: 0.5vw;
+  padding-top: 1vh;
+}
+
+.mb-3 {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-follow {
+  width: 7vw;
+  font-family: "Rubik Mono One", monospace, sans-serif;
+  font-size: 0.5em;
+}
+
+.btn-last {
+  padding-left: 1.5vw;
+}
+
+.form-control {
+  width: 17vw;
+}

@@ -1,0 +1,19 @@
+.main-customs {
+  background-color: #e9ecef;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  height: 35vh;
+}
+.footer-customs {
+  height: 15vh;
+  margin-top: 2vh;
+}
+
+.nav-start {
+  padding-left: 15vw;
+  padding-right: 47vw;
+}
+
+.card-text-customs {
+  text-align: center;
+}

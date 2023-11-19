@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 7fr 6fr;
+        grid-template-rows: 100px 400px;
+        height: 500px;
+      }
+
+      .galery {
+        background-color: bisque;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+      .title {
+        display: grid;
+        padding: 6px;
+        border: solid red 2px;
+        height: 100px;
+        background-color: bisque;
+      }
+      .buy-box {
+        height: 400px;
+        background-color: bisque;
+      }
+      .description {
+        background-color: darkolivegreen;
+        height: 200px;
+      }
+
+      .related {
+        background-color: bisque;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container">
+        <section class="galery">galery</section>
+        <section class="title">title</section>
+        <section class="buy-box">Buy box</section>
+      </div>
+    </main>
+    <section class="description">description</section>
+    <footer class="related">related</footer>
+  </body>
+</html>
